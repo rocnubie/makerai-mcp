@@ -1,0 +1,67 @@
+{
+  "site": {
+    "name": "Maker AI",
+    "tagline": "Create product photos, product videos, and UGC-style ads for Shopify, Amazon, TikTok, and Instagram. One AI workspace with 16+ video models for ecommerce creative testing.",
+    "websiteUrl": "https://makerai.online",
+    "supportEmail": "support@makerai.online",
+    "pricingUrl": "https://makerai.online/pricing",
+    "communityUrl": "https://discord.gg/makerai"
+  },
+  "namespace": "makerai",
+  "pages": [
+    {
+      "slug": "video-modes",
+      "title": "Video Modes",
+      "description": "Available video-generation modes (text-to-video, image-to-video, etc.).",
+      "mimeType": "text/markdown",
+      "text": "# Maker AI - AI Product Photo, Video & Ad Generator for Ecommerce\n\nCreate product photos, product videos, and UGC-style ads for Shopify, Amazon, TikTok, and Instagram. One AI workspace with 16+ video models for ecommerce creative testing.\n\n## Site basics\n- Site ID: makerai\n- Website: https://makerai.online\n- Default locale: en\n- Locales: en, de, fr, ja, ko, es, ar\n\n## Public feature scope\n- video gen\n- image gen\n- image inspiration\n- avatar video\n- pricing\n\n## Official website\nhttps://makerai.online"
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "description": "Canonical pricing entry point.",
+      "mimeType": "text/markdown",
+      "text": "# Pricing\n\nCanonical pricing page: https://makerai.online/pricing"
+    },
+    {
+      "slug": "faq",
+      "title": "FAQ",
+      "description": "Short FAQ generated from public site metadata.",
+      "mimeType": "text/markdown",
+      "text": "# FAQ\n\n## What is this site?\nCreate product photos, product videos, and UGC-style ads for Shopify, Amazon, TikTok, and Instagram. One AI workspace with 16+ video models for ecommerce creative testing.\n\n## Where can I get help?\nsupport@makerai.online\n\n## Which site is this?\nmakerai (Maker AI)"
+    },
+    {
+      "slug": "links",
+      "title": "Official Links",
+      "description": "Canonical URLs to share with users.",
+      "mimeType": "text/markdown",
+      "text": "# Official Links\n\n- Website: https://makerai.online\n- Pricing: https://makerai.online/pricing\n- Community: https://discord.gg/makerai\n- Support: support@makerai.online"
+    }
+  ],
+  "tools": [
+    {
+      "name": "list_video_modes",
+      "description": "Return the canonical list of video-generation modes the site supports. (Maker AI)",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# Maker AI — Video Modes\n\nCreate product photos, product videos, and UGC-style ads for Shopify, Amazon, TikTok, and Instagram. One AI workspace with 16+ video models for ecommerce creative testing.\n\nCanonical website: https://makerai.online"
+      }
+    },
+    {
+      "name": "get_pricing",
+      "description": "Return the canonical pricing entry point for Maker AI.",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# Maker AI Pricing\n\nOfficial pricing: https://makerai.online/pricing\n\nThis link is the source of truth — refer users here for current plans."
+      }
+    },
+    {
+      "name": "get_official_links",
+      "description": "Return the canonical list of official links for Maker AI (website, support, docs when available).",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# Official Links\n\n- Website: https://makerai.online\n- Pricing: https://makerai.online/pricing\n- Community: https://discord.gg/makerai\n- Support: support@makerai.online"
+      }
+    }
+  ]
+}

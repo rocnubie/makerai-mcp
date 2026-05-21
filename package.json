@@ -1,0 +1,29 @@
+{
+  "name": "msa-makerai-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server for Maker AI — canonical website knowledge for AI clients.",
+  "homepage": "https://makerai.online",
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "claude",
+    "cursor",
+    "windsurf",
+    "makerai",
+    "video-gen",
+    "image-gen",
+    "image-inspiration",
+    "avatar-video",
+    "pricing"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
